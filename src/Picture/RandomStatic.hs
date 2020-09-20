@@ -3,7 +3,6 @@ module Picture.RandomStatic
     , Width, Height
     )
 where
-
 import Codec.Picture   (generateImage, Image, PixelRGB8)
 import Data.List.Extra (chunksOf, genericTake)
 import Numeric.Natural (Natural)
