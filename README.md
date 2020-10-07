@@ -2,7 +2,7 @@
 
 Generate random images similar to the static from old analog television screens.
 
-Supports multiple colours, with black and white always included. Use the shell to specify the width, height, and additional RGB values.
+Supports multiple colours, with black and white always included. Use the command line to specify the width, height, and additional RGB values.
 
 ## Installation
 
