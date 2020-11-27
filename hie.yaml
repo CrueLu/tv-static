@@ -1,2 +1,13 @@
 cradle:
   stack:
+    - path: "./src"
+      component: "tv-static:lib"
+
+    - path: "./app/Main.hs"
+      component: "tv-static:exe:tv-static-exe"
+
+    - path: "./app/Paths_tv_static.hs"
+      component: "tv-static:exe:tv-static-exe"
+
+    - path: "./test"
+      component: "tv-static:test:tv-static-test"

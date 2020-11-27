@@ -1,14 +1,11 @@
-module Picture.RandomStatic
-    ( makeRandomStatic
-    , Width, Height
-    )
-where
-import Codec.Picture   (generateImage, Image, PixelRGB8)
+module Picture.RandomStatic (makeRandomStatic, Width, Height) where
+
+import Codec.Picture (Image, PixelRGB8, generateImage)
 import Data.List.Extra (chunksOf, genericTake)
 import Numeric.Natural (Natural)
-import System.Random   (newStdGen, randomRs)
+import System.Random (newStdGen, randomRs)
 
-type Width  = Natural
+type Width = Natural
 type Height = Natural
 
 makeRandomStatic :: Width -> Height -> [PixelRGB8] -> IO (Image PixelRGB8)
